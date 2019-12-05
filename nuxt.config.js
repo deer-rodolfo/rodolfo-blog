@@ -1,3 +1,6 @@
+import Mode from 'frontmatter-markdown-loader/mode'
+import blogPosts from './contents/blog.js'
+const path = require('path')
 export default {
   mode: 'universal',
   /*
@@ -56,6 +59,15 @@ export default {
     /*
      ** You can extend webpack config here
      */
-    extend(config, ctx) {}
+    extend(config) {
+      config.module.rules.push({
+        test: /\.md$/,
+        loader: 'frontmatter-markdown-loader',
+        include: path.resolve(__dirname, 'contents')
+      })
+    }
+  },
+  generate: {
+    routes: ['404'].concat(blogPosts.map((post) => `/blog/${post}`))
   }
 }
