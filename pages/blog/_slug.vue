@@ -1,21 +1,23 @@
 <template>
   <div>
-    <h1>{{ title }}</h1>
-    <p v-html="content"></p>
+    <h1>{{ attributes.title }}</h1>
+    <!-- eslint-disable-next-line vue/require-component-is -->
+    <component :is="dynamicComponent" />
   </div>
 </template>
 
 <script>
 export default {
-  async asyncData({ params, app }) {
-    const fileContent = await import(`~/contents/blog/${params.slug}.md`)
-    const attr = fileContent.attributes
+  data() {
     return {
-      name: params.slug,
-      title: attr.title,
-      year: attr.year,
-      content: fileContent.html
+      attributes: null,
+      dynamicComponent: null
     }
+  },
+  created() {
+    const file = require(`~/contents/blog/${this.$route.params.slug}.md`)
+    this.attributes = file.attributes
+    this.dynamicComponent = file.vue.component
   }
 }
 </script>

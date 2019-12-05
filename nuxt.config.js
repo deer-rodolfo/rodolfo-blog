@@ -1,4 +1,4 @@
-import Mode from 'frontmatter-markdown-loader/mode'
+import FMMode from 'frontmatter-markdown-loader/mode'
 import blogPosts from './contents/blog.js'
 const path = require('path')
 export default {
@@ -63,7 +63,13 @@ export default {
       config.module.rules.push({
         test: /\.md$/,
         loader: 'frontmatter-markdown-loader',
-        include: path.resolve(__dirname, 'contents')
+        include: path.resolve(__dirname, 'contents'),
+        options: {
+          mode: [FMMode.VUE_COMPONENT],
+          vue: {
+            root: 'markdown-body'
+          }
+        }
       })
     }
   },
