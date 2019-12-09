@@ -1,17 +1,17 @@
 <template>
-  <div class="page-index">
-    <div class="container">
-      <h1 v-for="post in posts">
-        {{ post.name }}
-      </h1>
-    </div>
+  <div>
+    <blog-card v-for="post in posts" :key="post.id" :post="post" />
   </div>
 </template>
 
 <script>
 import blogPosts from '~/contents/blog.js'
+import BlogCard from '~/components/BlogCard'
 
 export default {
+  components: {
+    BlogCard
+  },
   asyncData({ app }) {
     async function asyncImport(blogName) {
       const wholeMD = await import(`~/contents/blog/${blogName}.md`)
@@ -25,18 +25,16 @@ export default {
       }
     )
   },
-  transition: {
-    name: 'slide-fade'
-  },
   head() {
     return {
-      title: 'title',
+      title: 'Rodolfo Dutra - Curious Developer',
       meta: [
-        { name: 'author', content: 'rodolfo' },
+        { name: 'author', content: 'deer-rodolfo' },
         {
           name: 'description',
           property: 'og:description',
-          content: 'hallooo',
+          content:
+            'A collection of ideas and projects. That is the idea I have for this personal blog.',
           hid: 'description'
         }
       ]

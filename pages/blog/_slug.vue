@@ -1,6 +1,7 @@
 <template>
   <div>
     <h1>{{ attributes.title }}</h1>
+    <h5 class="mb-5 secondary-text">{{ attributes.date }}</h5>
     <!-- eslint-disable-next-line vue/require-component-is -->
     <component :is="dynamicComponent" />
   </div>

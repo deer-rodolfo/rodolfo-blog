@@ -1,1 +1,1 @@
-export default ['first', 'second']
+export default ['vue-tutorial', 'first-post']
