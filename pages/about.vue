@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2>Let me tell you about me:</h2>
+    <h2>A bit about myself:</h2>
     <b-row>
       <b-col sm="5" order="2" order-sm="1">
         <b-img
@@ -13,9 +13,9 @@
       </b-col>
       <b-col order="1" order-sm="2">
         <p>
-          Hi! My name is Rodolfo, I am Portuguese and was born in the a small
-          island named Pico, in the middle of the atlantic. However I currently
-          live in Leipzig, Germany.
+          Hi! My name is Rodolfo, I am Portuguese and I was born in a small
+          island named Pico, in the middle of the Atlantic. I currently live in
+          Leipzig, Germany.
         </p>
         <p>
           I feel passionate about using simplicity and practicality as tools to
@@ -29,8 +29,7 @@
         </p>
         <p>
           I love reading José Saramago, I am caught up listening to Jacob
-          Collier and everyday I believe more in the power of our inner
-          energies.
+          Collier and everyday I believe more in the power of our inner energy.
         </p>
       </b-col>
     </b-row>

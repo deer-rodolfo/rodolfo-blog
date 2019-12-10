@@ -8,9 +8,22 @@
       border-variant="light"
       class="blog-card my-2"
     >
-      <b-card-text>
-        {{ post.description }}
-      </b-card-text>
+      <b-row>
+        <b-col sm="4">
+          <b-img
+            :src="imageRequired"
+            :alt="post.title"
+            fluid
+            center
+            width="200px"
+          ></b-img>
+        </b-col>
+        <b-col sm="8">
+          <b-card-text class="mt-3">
+            {{ post.description }}
+          </b-card-text>
+        </b-col>
+      </b-row>
     </b-card>
   </nuxt-link>
 </template>
@@ -22,6 +35,11 @@ export default {
     post: {
       type: Object,
       default: null
+    }
+  },
+  computed: {
+    imageRequired() {
+      return require(`~/assets/images/${this.post.image}`)
     }
   }
 }

@@ -1,7 +1,7 @@
 <template>
   <div>
     <b-container class="container">
-      <b-navbar toggleable="lg" class="mt-5">
+      <b-navbar toggleable="lg" class="mt-2">
         <nuxt-link :to="{ name: 'index' }">
           <b-navbar-brand class="nav-title">
             Rodolfo Dutra
