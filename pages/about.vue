@@ -4,7 +4,7 @@
     <b-row>
       <b-col sm="5" order="2" order-sm="1">
         <b-img
-          src="~/static/profile-rodolfo.jpg"
+          src="~/assets/profile-rodolfo.jpg"
           fluid
           thumbnail
           alt="Rodolfo in Lisbon"
