@@ -1,7 +1,7 @@
 <template>
   <b-container>
-    <h2>Feel free to contact me</h2>
-    <b-list-group flush>
+    <h2>Feel free to contact me:</h2>
+    <b-list-group flush class="mt-3">
       <b-list-group-item
         target="_blank"
         href="https://www.linkedin.com/in/rodolfo-dutra/"
@@ -27,7 +27,7 @@
       <b-list-group-item button class="group-item">
         <fa
           :icon="['fas', 'envelope']"
-          style="font-size: 30px"
+          style="font-size: 28px"
           class="group-item mx-2"
         />rodolfo.borges.dutra@gmail.com
       </b-list-group-item>
@@ -44,5 +44,7 @@ export default {
 <style scoped>
 .group-item {
   background-color: #fdfdfd;
+  padding-left: 0rem;
+  padding-right: 0rem;
 }
 </style>
