@@ -50,7 +50,4 @@ export default {
   background-color: #fdfdfd;
   border: none;
 }
-.blog-card:hover {
-  background-color: #ffffff;
-}
 </style>

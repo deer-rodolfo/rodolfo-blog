@@ -1,33 +1,32 @@
 <template>
   <div>
     <b-container class="container">
-      <b-navbar toggleable="lg" class="mt-2">
-        <nuxt-link :to="{ name: 'index' }">
-          <b-navbar-brand class="nav-title">
-            Rodolfo Dutra
-            <p class="nav-subtitle secondary-text ml-4">Curious Developer</p>
-          </b-navbar-brand>
-        </nuxt-link>
-
-        <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
-
-        <b-collapse id="nav-collapse" is-nav>
-          <b-navbar-nav class="ml-auto">
-            <b-nav-item class="nav-item">
-              <nuxt-link :to="{ name: 'about' }">
-                About
-              </nuxt-link>
-            </b-nav-item>
-            <b-nav-item class="nav-item">
-              <nuxt-link :to="{ name: 'contact' }">
-                Contact
-              </nuxt-link>
-            </b-nav-item>
-          </b-navbar-nav>
-        </b-collapse>
-      </b-navbar>
       <b-row align-h="center">
         <b-col lg="8" md="10" sm="12">
+          <b-row class="mt-5 mb-2" align-h="between">
+            <b-col cols="12" sm="6" md="6" lg="5">
+              <nuxt-link :to="{ name: 'index' }">
+                <h1 class="nav-title">
+                  Rodolfo Dutra
+                  <p class="nav-subtitle secondary-text ml-4">
+                    Curious Developer
+                  </p>
+                </h1>
+              </nuxt-link>
+            </b-col>
+            <b-col sm="4" md="4" class="text-right" align-self="center">
+              <nuxt-link :to="{ name: 'about' }" class="nav-item">
+                About
+              </nuxt-link>
+              <nuxt-link
+                :to="{ name: 'contact' }"
+                class="nav-item px-1 text-left"
+              >
+                Contact
+              </nuxt-link>
+            </b-col>
+          </b-row>
+
           <nuxt />
         </b-col>
       </b-row>
@@ -84,7 +83,7 @@ a:hover {
 
 .nav-item {
   font-size: 1.3rem;
-  color: rgba(37, 37, 37, 0.9);
+  color: rgba(37, 37, 37, 0.7);
 }
 
 .secondary-text {
