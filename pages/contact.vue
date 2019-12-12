@@ -45,7 +45,4 @@ export default {
 .group-item {
   background-color: #fdfdfd;
 }
-.group-item:hover {
-  background-color: #ffffff;
-}
 </style>
