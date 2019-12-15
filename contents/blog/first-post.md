@@ -5,8 +5,14 @@ date: 09 December 2019
 id: 'first-post'
 image: 'cube.jpg'
 description: |
-  A collection of ideas and projects. That is the goal I have for this personal blog. I was looking for a way to document my path, my learning experiences and maybe some failures.
+  Olá, my name is Rodolfo, I am a front-end developer, and for some time now, I have had the urge to create my own blog. A place on the web where I can own my own content and showcase the projects I am involved in.
 ---
 
-<p>My name is Rodolfo, I am a front-end developer and for some time now I had the urge to create my own blog. The idea with creating a blog is to have a platform where I would own my content and be able to showcase projects I am involved in. </p>
-<p> To be continued... </p>
+<p>
+I share the belief that does not exist a <i>"better"</i> way to build projects when it comes to web development. So for this blog I decided to go with the tecnologies that I am confortable using, mainly Vue.js.</p>
+<p>I watched a <a href="https://www.youtube.com/watch?v=qOjbRDVQzH8" target="_blank">talk from Marina Aísa</a> about how she built her own blog with <a href="nuxtjs.org" target="_blank">Nuxt.js</a>, and I got sold on the idea of trying it out. The learning curve of the framework is pretty small for someone used to Vue and I personally loved how fast it is to route pages and how easy it is to add SEO.
+</p>
+
+<p>
+However, my inner engineer had to know, <i>"What about the performance?"</i>
+</p>

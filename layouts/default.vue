@@ -15,15 +15,14 @@
               </nuxt-link>
             </b-col>
             <b-col sm="4" md="4" class="text-right" align-self="center">
-              <nuxt-link :to="{ name: 'about' }" class="nav-item">
-                About
-              </nuxt-link>
+              <nuxt-link :to="{ name: 'about' }" class="nav-item"
+                >About</nuxt-link
+              >
               <nuxt-link
                 :to="{ name: 'contact' }"
                 class="nav-item px-1 text-left"
+                >Contact</nuxt-link
               >
-                Contact
-              </nuxt-link>
             </b-col>
           </b-row>
 
@@ -38,8 +37,9 @@
 </template>
 
 <style>
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
 body {
-  font-family: 'Baskervville', serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 16px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;

@@ -19,9 +19,7 @@
           ></b-img>
         </b-col>
         <b-col sm="8">
-          <b-card-text class="mt-3">
-            {{ post.description }}
-          </b-card-text>
+          <b-card-text class="mt-3">{{ post.description }}</b-card-text>
         </b-col>
       </b-row>
     </b-card>
