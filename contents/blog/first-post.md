@@ -14,5 +14,14 @@ I share the belief that does not exist a <i>"better"</i> way to build projects w
 </p>
 
 <p>
-However, my inner engineer had to know, <i>"What about the performance?"</i>
+However, my inner engineer had to know, <i>"What about the performance?"</i>. I made two audits, one to the page I just build and another one to my Medium profile page. And I have to say, I was impressed with score difference when it came to performance.
 </p>
+
+<figure class="figure">
+  <img src="~/assets/images/medium_performance.png" class="figure-img img-fluid" style="max-width: 85%" alt="Medium's profile page audit.">
+  <figcaption class="figure-caption">Medium's profile page audit.</figcaption>
+</figure>
+<figure class="figure">
+  <img src="~/assets/images/nuxt_performance.png" class="figure-img img-fluid rounded" style="max-width: 85%" alt="Nuxt.js created page audit.">
+  <figcaption class="figure-caption">Nuxt.js created page audit.</figcaption>
+</figure>
