@@ -63,6 +63,9 @@ footer {
   height: 40px;
   width: 100%;
 }
+.blog-link {
+  text-decoration: underline;
+}
 
 a {
   text-decoration: none;

@@ -19,7 +19,7 @@
       </b-col>
     </b-row>
     <!-- eslint-disable-next-line vue/require-component-is -->
-    <component :is="dynamicComponent" />
+    <component :is="dynamicComponent" class="mb-5" />
   </div>
 </template>
 
