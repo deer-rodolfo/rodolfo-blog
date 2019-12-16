@@ -1,22 +1,7 @@
 # rodolfo-dutra
 
-> A blog an idea
+> Olá, my name is Rodolfo, I am a front-end developer, and for some time now, I have had the urge to create a blog. A place on the web where I can own my content and showcase the projects I am involved in.
 
-## Build Setup
+## Tech
 
-``` bash
-# install dependencies
-$ yarn install
-
-# serve with hot reload at localhost:3000
-$ yarn dev
-
-# build for production and launch server
-$ yarn build
-$ yarn start
-
-# generate static project
-$ yarn generate
-```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+This page was built with [Nuxt.js](https://nuxtjs.org) and [Bootstrap](https://bootstrap-vue.js.org/). Deployed with help of [Netlify](https://netlify.com) at rodolfodutra.com.
