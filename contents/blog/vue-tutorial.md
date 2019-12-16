@@ -1,7 +1,7 @@
 ---
 name: 'vue-tutorial'
 title: Learning by Teaching Vue.js
-date: 10 December 2019
+date: 16 December 2019
 id: 'vue-tutorial'
 image: 'vue-tutorial-logo.jpg'
 description: |
