@@ -4,4 +4,4 @@
 
 ## Tech
 
-This page was built with [Nuxt.js](https://nuxtjs.org) and [Bootstrap](https://bootstrap-vue.js.org/). Deployed with help of [Netlify](https://netlify.com) at rodolfodutra.com.
+This page was built with [Nuxt.js](https://nuxtjs.org) and [Bootstrap](https://bootstrap-vue.js.org/). Deployed with help of [Netlify](https://netlify.com) at https://rodolfo-blog.netlify.com/.
